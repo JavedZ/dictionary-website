@@ -1,0 +1,58 @@
+1. معنی به فارسی
+Supinum شکل خاصی از فعل در زبان سوئدی است که همراه با فعل کمکی har یا hade برای ساختن زمان‌های کامل استفاده می‌شود.
+
+به زبان ساده، وقتی می‌خواهیم بگوییم کاری انجام شده است یا پیش از اتفاق دیگری انجام شده بود، معمولاً به این شکل فعل نیاز داریم.
+2. Förklaring på svenska
+Supinum är en verbform som används tillsammans med hjälpverben har och hade.
+3. Exempel på verbformer – شکل فعل‌ها
+Infinitiv	Presens	Preteritum	Supinum
+att läsa	läser	läste	läst
+att skriva	skriver	skrev	skrivit
+att arbeta	arbetar	arbetade	arbetat
+att bo	bor	bodde	bott
+att vara	är	var	varit
+att ha	har	hade	haft
+att gå	går	gick	gått
+att äta	äter	åt	ätit
+
+4. Hur använder man supinum?
+A. Perfekt: har + supinum
+برای بیان کاری که انجام شده و به زمان حال ارتباط دارد.
+
+Jag har läst boken.
+
+ترجمه: من کتاب را خوانده‌ام.
+
+ساختار:
+
+har + läst
+B. Pluskvamperfekt: hade + supinum
+برای بیان کاری که پیش از اتفاق دیگری در گذشته انجام شده بود.
+
+Vi hade redan ätit när han kom.
+
+ترجمه: وقتی او آمد، ما قبلاً غذا خورده بودیم.
+
+ساختار:
+
+hade + ätit
+5. Skillnaden mellan verbformer
+شکل	مثال	معنی
+Infinitiv	att läsa	خواندن
+Presens	läser	می‌خوانم
+Preteritum	läste	خواندم
+Supinum	läst	شکل لازم برای har läst
+
+این چهار شکل را با هم مقایسه کن:
+- Jag vill läsa. — من می‌خواهم بخوانم.
+- Jag läser. — من می‌خوانم.
+- Jag läste. — من خواندم.
+- Jag har läst. — من خوانده‌ام.
+6. Kom ihåg – به خاطر بسپار
+مهم‌ترین قانون:
+- har + supinum → Perfekt
+- hade + supinum → Pluskvamperfekt
+مثال با فعل skriva:
+- Jag har skrivit. — من نوشته‌ام.
+- Jag hade skrivit. — من نوشته بودم.
+نکته: در زبان سوئدی، supinum معمولاً به‌تنهایی استفاده نمی‌شود؛ بلکه همراه با har یا hade می‌آید تا زمان فعل ساخته شود.

@@ -1,0 +1,59 @@
+1. معنی به فارسی
+Preteritum = زمان گذشتهٔ ساده
+
+از این زمان برای بیان کاری یا رویدادی استفاده می‌کنیم که در گذشته اتفاق افتاده است.
+
+مثال:
+- Jag läste. — من خواندم.
+- Hon arbetade. — او کار کرد.
+- Vi bodde i Sverige. — ما در سوئد زندگی می‌کردیم.
+2. Förklaring på svenska
+Preteritum används för att berätta om något som hände eller gällde i det förflutna.
+3. Exempel på verbformer – شکل فعل‌ها
+Infinitiv (مصدر)	Presens (حال)	Preteritum (گذشته)
+att läsa	läser	läste
+att skriva	skriver	skrev
+att arbeta	arbetar	arbetade
+att bo	bor	bodde
+att vara	är	var
+att ha	har	hade
+att gå	går	gick
+att äta	äter	åt
+
+نکته: همهٔ فعل‌ها با یک قاعده به گذشته تبدیل نمی‌شوند. برای مثال، arbetar → arbetade از یک الگوی رایج پیروی می‌کند، اما går → gick بی‌قاعده است.
+4. Exempelmeningar – جمله‌های نمونه
+1. Jag läste en bok i går.
+
+ترجمه: من دیروز یک کتاب خواندم.
+
+2. Hon arbetade hela dagen.
+
+ترجمه: او تمام روز کار کرد.
+
+3. Vi bodde i Sverige för fem år sedan.
+
+ترجمه: ما پنج سال پیش در سوئد زندگی می‌کردیم.
+
+4. Han var trött i går.
+
+ترجمه: او دیروز خسته بود.
+5. Vanliga tidsuttryck – عبارت‌های زمانی
+- I går — دیروز
+- Förra veckan — هفتهٔ گذشته
+- För två år sedan — دو سال پیش
+- Då — آن زمان
+این عبارت‌ها اغلب همراه با preteritum دیده می‌شوند، هرچند انتخاب زمان به معنی جمله بستگی دارد.
+6. Skillnaden mellan preteritum och perfekt
+زمان	مثال سوئدی	ترجمه
+Preteritum	Jag läste boken i går.	من دیروز کتاب را خواندم.
+Perfekt	Jag har läst boken.	من کتاب را خوانده‌ام.
+
+تفاوت اصلی: Preteritum معمولاً رویدادی را در گذشته بیان می‌کند؛ perfekt اغلب کاری را بیان می‌کند که انجام شده و به زمان حال ارتباط دارد.
+7. Kom ihåg
+در زبان سوئدی، شکل فعل در preteritum معمولاً برای همهٔ اشخاص یکسان است:
+- Jag läste.
+- Du läste.
+- Hon läste.
+- Vi läste.
+- De läste.
+همهٔ این جمله‌ها از شکل گذشتهٔ läste استفاده می‌کنند.

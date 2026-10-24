@@ -1,0 +1,81 @@
+1. Ord och grundform — واژه و شکل پایه
+- Ord: utredande
+- Grundform: att utreda
+- Ordklass: particip/adjektiv (اسم فعلی وصفی / صفت)
+- معنی فارسی: بررسی‌کننده، تحلیلی، واکاوانه؛ چیزی که یک موضوع را به‌صورت منظم و از جنبه‌های مختلف بررسی می‌کند.
+در محیط آموزشی سوئد، این واژه به‌ویژه در عبارت utredande text اهمیت دارد.
+2. Former — شکل‌های دستوری
+سوئدی	فارسی
+att utreda	بررسی کردن، تحقیق کردن
+utreder	بررسی می‌کند
+utredde	بررسی کرد
+utrett	بررسی کرده
+utredande	بررسی‌کننده، تحلیلی
+en utredande text	یک متن تحلیلی
+en utredning	یک بررسی، تحقیق یا گزارش کارشناسی
+en utredare	فرد مسئول بررسی یا تحقیق
+
+3. Betydelser — معنی‌ها و کاربردها
+معنی اول: بررسی کردن یک موضوع به‌صورت نظام‌مند
+- 🔊 Kommunen utreder orsaken till olyckan.
+شهرداری علت حادثه را بررسی می‌کند.
+
+- 🔊 Polisen utreder brottet.
+پلیس جرم را بررسی می‌کند.
+معنی دوم: تحلیلی و بررسی‌کننده
+این معنی معمولاً برای نوعی متن به کار می‌رود که موضوعی را با اطلاعات، دلایل و دیدگاه‌های مختلف بررسی می‌کند.
+
+- 🔊 Vi ska skriva en utredande text om språkförändringar.
+ما باید متنی تحلیلی دربارهٔ تغییرات زبان بنویسیم.
+
+- 🔊 En utredande text belyser olika orsaker och konsekvenser.
+یک متن تحلیلی علت‌ها و پیامدهای مختلف را بررسی می‌کند.
+4. Vanliga kombinationer — ترکیب‌های پرکاربرد
+عبارت سوئدی	ترجمهٔ فارسی
+utredande text	متن تحلیلی و بررسی‌کننده
+utredande uppsats	انشای تحلیلی
+utredande fråga	پرسشی که نیاز به بررسی دارد
+utredande arbete	کار پژوهشی و بررسی‌کننده
+utredande myndighet	نهاد مسئول بررسی
+
+5. Struktur i en utredande text — ساختار متن تحلیلی
+یک متن تحلیلی معمولاً سه بخش اصلی دارد:
+1. Inledning — مقدمه: معرفی موضوع و طرح پرسش اصلی (frågeställning).
+2. Huvuddel — بدنه: بررسی اطلاعات، توضیح علت‌ها و مقایسهٔ دیدگاه‌ها.
+3. Avslutning — پایان‌بندی: خلاصه کردن یافته‌ها و پاسخ دادن به پرسش اصلی.
+مثال:
+
+Frågeställning: Varför förändras det svenska språket?
+
+پرسش اصلی: چرا زبان سوئدی تغییر می‌کند؟
+
+در بخش اصلی، نویسنده می‌تواند تأثیر شبکه‌های اجتماعی، نسل جوان، مهاجرت و ارتباطات روزمره را بررسی کند.
+6. Grammatik och meningsbyggnad — گرامر و ساختار جمله
+- utreda något — چیزی را بررسی کردن
+Polisen utreder händelsen. — پلیس این رویداد را بررسی می‌کند.
+
+- utreda varför/hur/vad — بررسی کردن اینکه چرا، چگونه یا چه چیزی
+Forskaren utreder varför människor byter språk. — پژوهشگر بررسی می‌کند که چرا مردم زبان خود را تغییر می‌دهند.
+
+- en utredande text om något — یک متن تحلیلی دربارهٔ چیزی
+Jag skriver en utredande text om sociala medier. — من متنی تحلیلی دربارهٔ شبکه‌های اجتماعی می‌نویسم.
+7. Skillnaden mellan liknande ord — تفاوت واژه‌های مشابه
+واژه	معنی و هدف
+utredande	بررسی و تحلیل موضوع از چند جنبه
+argumenterande	استدلال کردن برای دفاع از یک دیدگاه و قانع کردن خواننده
+beskrivande	توصیف کردن ویژگی‌های یک موضوع
+redogörande	ارائهٔ منظم اطلاعات دربارهٔ یک موضوع
+refererande	بازگو کردن یا خلاصه کردن محتوای یک منبع
+
+8. Närliggande ord — واژه‌های مرتبط
+- utreda — بررسی کردن
+- utredning — بررسی، تحقیق، گزارش کارشناسی
+- utredare — مسئول بررسی یا پژوهشگر
+- analys — تحلیل
+- undersöka — تحقیق و بررسی کردن
+9. Minnesregel — نکتهٔ مهم برای یادگیری
+Utredande = undersöka + förklara + belysa olika perspektiv.
+
+یعنی: بررسی کردن + توضیح دادن + روشن کردن دیدگاه‌های مختلف.
+
+نکتهٔ کلیدی: هدف یک utredande text صرفاً بیان نظر شخصی نیست؛ نویسنده باید موضوع را با اطلاعات مرتبط بررسی کند و توضیح دهد که چه عواملی در آن نقش دارند.
