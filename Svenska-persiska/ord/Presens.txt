@@ -1,0 +1,42 @@
+1. معنی به فارسی
+Presens = زمان حال فعل
+
+از زمان حال برای صحبت دربارهٔ کاری که اکنون انجام می‌شود، عادت‌ها و واقعیت‌های عمومی استفاده می‌کنیم.
+
+مثلاً:
+- Jag läser. — من می‌خوانم.
+- Hon arbetar. — او کار می‌کند.
+- Vi bor i Sverige. — ما در سوئد زندگی می‌کنیم.
+2. Förklaring på svenska
+Presens är en verbform som används för att beskriva något som händer nu, något man brukar göra eller något som gäller generellt.
+3. Så bildar man presens – ساخت زمان حال
+Infinitiv (مصدر)	Presens (حال)	معنی
+att läsa	läser	خواندن ← می‌خواند
+att skriva	skriver	نوشتن ← می‌نویسد
+att arbeta	arbetar	کار کردن ← کار می‌کند
+att bo	bor	زندگی کردن ← زندگی می‌کند
+att vara	är	بودن ← است
+att ha	har	داشتن ← دارد
+
+4. Presens med olika personer
+در زبان سوئدی، شکل فعل در زمان حال معمولاً با تغییر شخص عوض نمی‌شود.
+- Jag läser. — من می‌خوانم.
+- Du läser. — تو می‌خوانی.
+- Han läser. — او می‌خواند.
+- Vi läser. — ما می‌خوانیم.
+- De läser. — آن‌ها می‌خوانند.
+همان شکل läser برای همهٔ این اشخاص استفاده می‌شود.
+5. Presens kan också beskriva framtiden
+زمان حال گاهی برای آینده نیز به کار می‌رود، اگر زمان انجام کار مشخص باشد.
+
+Jag åker till Stockholm i morgon.
+
+ترجمه: من فردا به استکهلم می‌روم.
+6. Skillnaden mellan verbformer
+شکل فعل	مثال	معنی
+Infinitiv	att läsa	خواندن
+Presens	läser	می‌خوانم / می‌خواند
+Preteritum	läste	خواندم / خواند
+Supinum	läst	شکل فعل در har läst
+
+نکتهٔ مهم: در جملهٔ Jag läser en bok، فعل läser در زمان حال است؛ اما در Jag läste en bok، فعل läste در زمان گذشته است.

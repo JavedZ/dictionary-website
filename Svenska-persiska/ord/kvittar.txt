@@ -1,0 +1,101 @@
+1. Ord och grundform — واژه و شکل پایه
+- Ord: kvittar
+- Grundform: att kvitta
+- Språk: svenska (سوئدی)
+- Ordklass: verb (فعل)
+- معنی اصلی: فرقی داشتن، تفاوت داشتن؛ در عبارت‌های رایج اغلب به معنی «فرقی نمی‌کند» است.
+این واژه همچنین در امور مالی به معنی تهاتر کردن یا تسویهٔ متقابل بدهی و طلب به کار می‌رود.
+2. Böjningsformer — شکل‌های صرفی
+شکل سوئدی	معنی فارسی
+att kvitta	تهاتر کردن؛ تسویه کردن
+kvittar	فرقی می‌کند؛ تهاتر می‌کند
+kvittade	فرقی می‌کرد؛ تهاتر کرد
+kvittat	تهاتر کرده
+har kvittat	تهاتر کرده است
+hade kvittat	تهاتر کرده بود
+
+3. Betydelse 1: Det kvittar — فرقی نمی‌کند
+این رایج‌ترین کاربرد روزمرهٔ واژه است. وقتی انتخاب میان چند گزینه برای شخص اهمیتی ندارد، از این عبارت استفاده می‌شود.
+
+Exempel 1
+
+🔊 Det kvittar för mig.
+
+برای من فرقی نمی‌کند.
+
+Exempel 2
+
+🔊 Det kvittar vilken dag vi åker.
+
+فرقی نمی‌کند کدام روز برویم.
+
+Exempel 3
+
+🔊 Vem som vinner kvittar för mig.
+
+اینکه چه کسی برنده شود، برای من فرقی نمی‌کند.
+
+Exempel 4
+
+🔊 Det kvittar om vi tar bussen eller tåget.
+
+فرقی نمی‌کند اتوبوس بگیریم یا قطار.
+4. Vanliga uttryck — عبارت‌های پرکاربرد
+عبارت سوئدی	ترجمهٔ فارسی
+Det kvittar.	فرقی نمی‌کند.
+Det kvittar för mig.	برای من فرقی نمی‌کند.
+Det kvittar vilket.	فرقی نمی‌کند کدام.
+Det kvittar vem.	فرقی نمی‌کند چه کسی.
+Det kvittar om …	فرقی نمی‌کند که آیا ...
+Det kvittar mig lika.	برای من تفاوتی ندارد.
+
+5. Betydelse 2: Kvitta inom ekonomi — تهاتر کردن
+در زبان اقتصادی و حسابداری، kvitta می‌تواند به معنای تسویهٔ متقابل دو مبلغ یا کسر یک طلب از یک بدهی باشد.
+
+Exempel 1
+
+🔊 Företaget kvittade skulden mot fordran.
+
+شرکت بدهی را با طلب خود تهاتر کرد.
+
+Exempel 2
+
+🔊 Beloppen kan kvittas mot varandra.
+
+مبالغ را می‌توان با یکدیگر تهاتر کرد.
+6. Grammatik — نکات دستوری
+در عبارت det kvittar، فعل معمولاً به شکل سوم‌شخص مفرد می‌آید و جمله معنای غیرشخصی دارد.
+
+- Det kvittar vem som börjar.
+فرقی نمی‌کند چه کسی شروع کند.
+
+- Det kvittar hur lång tid det tar.
+فرقی نمی‌کند چقدر طول بکشد.
+
+در کاربرد اقتصادی، فعل می‌تواند مفعول داشته باشد یا به شکل مجهول به کار برود:
+- De kvittade skulden. — آن‌ها بدهی را تهاتر کردند.
+- Skulden kvittades mot fordran. — بدهی با طلب تهاتر شد.
+7. Synonymer och motsatsuttryck — مترادف‌ها و عبارت‌های متضاد
+سوئدی	فارسی
+spelar ingen roll	فرقی نمی‌کند
+saknar betydelse	اهمیت ندارد
+har ingen betydelse	اهمیتی ندارد
+spelar roll	اهمیت دارد؛ فرق می‌کند
+har betydelse	اهمیت دارد
+
+8. Skillnaden mellan «kvittar» och «spelar ingen roll»
+هر دو عبارت اغلب معنی «فرقی نمی‌کند» دارند.
+- Det kvittar. — فرقی نمی‌کند. (محاوره‌ای و کوتاه)
+- Det spelar ingen roll. — فرقی نمی‌کند. (رایج و قابل‌استفاده در موقعیت‌های مختلف)
+مثال:
+
+Vilken film ska vi se? Det kvittar.
+
+کدام فیلم را ببینیم؟ فرقی نمی‌کند.
+
+Det spelar ingen roll vad andra tycker.
+
+مهم نیست دیگران چه فکری می‌کنند.
+9. Uttal — تلفظ
+Kvittar — تلفظ تقریبی: «کْویتّار»
+

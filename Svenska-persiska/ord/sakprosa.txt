@@ -1,0 +1,77 @@
+1. Ord och grundform — واژه و شکل پایه
+- Ord: sakprosa
+- Språk: svenska (سوئدی)
+- Ordklass: substantiv (اسم)
+- معنی فارسی: نثر غیرداستانی؛ متن واقعی و اطلاعاتی؛ نوشته‌ای که دربارهٔ واقعیت‌ها، دانش یا موضوعات واقعی صحبت می‌کند.
+2. Definition — تعریف
+Sakprosa är texter som främst informerar, förklarar, beskriver, argumenterar eller förmedlar fakta om verkligheten.
+
+به فارسی: Sakprosa به نوشته‌هایی گفته می‌شود که هدف اصلی آن‌ها اطلاع‌رسانی، توضیح، توصیف، استدلال یا انتقال اطلاعات دربارهٔ دنیای واقعی است.
+
+این نوع متن در مقابل skönlitteratur قرار می‌گیرد؛ یعنی ادبیات داستانی و هنری، مانند رمان و داستان کوتاه. البته مرز میان این دو همیشه کاملاً مشخص نیست.
+3. Exempel på sakprosa — نمونه‌های نثر غیرداستانی
+Svenska	فارسی
+en tidningsartikel	مقالهٔ روزنامه
+en faktatext	متن اطلاعاتی
+en lärobok	کتاب درسی
+en rapport	گزارش
+en utredning	بررسی کارشناسی
+en debattartikel	مقالهٔ دیدگاه‌محور
+en instruktion	دستورالعمل
+en vetenskaplig artikel	مقالهٔ علمی
+
+4. Exempelmeningar — جمله‌های نمونه
+1. Vi arbetar med sakprosa i svenskundervisningen.
+
+ما در آموزش زبان سوئدی روی متن‌های غیرداستانی کار می‌کنیم.
+
+2. En faktatext är en typ av sakprosa.
+
+متن اطلاعاتی نوعی نثر غیرداستانی است.
+
+3. Sakprosa ska ofta vara tydlig och saklig.
+
+متن غیرداستانی اغلب باید روشن و مبتنی بر واقعیت باشد.
+
+4. Eleverna jämför sakprosa med skönlitteratur.
+
+دانش‌آموزان نثر غیرداستانی را با ادبیات داستانی مقایسه می‌کنند.
+
+5. Rapporten är skriven på ett formellt sakprosaspråk.
+
+گزارش با زبانی رسمی و غیرداستانی نوشته شده است.
+5. Böjningsformer — شکل‌های دستوری
+شکل سوئدی	معنی فارسی
+sakprosa	نثر غیرداستانی
+sakprosan	آن نثر غیرداستانی / نثر غیرداستانیِ موردنظر
+en sakprosatext	یک متن غیرداستانی
+sakprosatexten	آن متن غیرداستانی
+sakprosatexter	متن‌های غیرداستانی
+sakprosatexterna	آن متن‌های غیرداستانی
+
+نکته: واژهٔ sakprosa معمولاً به‌صورت اسم غیرقابل‌شمارش استفاده می‌شود؛ بنابراین شکل جمع sakprosor کمتر رایج است.
+6. Vanliga uttryck — عبارت‌های پرکاربرد
+- läsa sakprosa — خواندن متن‌های غیرداستانی
+- skriva sakprosa — نوشتن متن غیرداستانی
+- sakprosatext — متن غیرداستانی
+- sakprosaförfattare — نویسندهٔ آثار غیرداستانی
+- sakprosagenre — گونهٔ نوشتاری غیرداستانی
+7. Skillnaden mellan liknande begrepp — تفاوت اصطلاحات مشابه
+اصطلاح	معنی و تفاوت
+Sakprosa	نوشته‌هایی دربارهٔ واقعیت‌ها، اطلاعات یا موضوعات واقعی
+Skönlitteratur	ادبیات داستانی و هنری، مانند رمان
+Faktatext	متن اطلاعاتی که هدف اصلی آن ارائهٔ اطلاعات و واقعیت‌هاست
+PM	متن کوتاه و ساختاریافته برای بررسی یک موضوع؛ می‌تواند از نوع sakprosa باشد
+Referat	خلاصه‌ای از محتوای یک متن دیگر؛ می‌تواند از نوع sakprosa باشد
+Utredande text	متنی که موضوعی را بررسی و از جنبه‌های مختلف تحلیل می‌کند
+
+8. Närliggande ord — واژه‌های مرتبط
+- facktext — متن تخصصی
+- faktatext — متن اطلاعاتی
+- informationstext — متن اطلاع‌رسان
+- utredande text — متن تحلیلی و بررسی‌کننده
+- argumenterande text — متن استدلالی
+9. Minnesregel — راه ساده برای به خاطر سپردن
+Sakprosa = texter om verkligheten.
+
+یعنی: متن‌هایی که عمدتاً دربارهٔ واقعیت هستند و اطلاعات، دانش یا استدلال ارائه می‌کنند؛ نه اینکه هدف اصلی آن‌ها تعریف داستان‌های خیالی باشد.
