@@ -18,9 +18,20 @@ const languageNames = {
   Svenska: "سوئدی",
   Persiska: "فارسی"
 };
-
+/*
 function getPath(source, target, word) {
   return `${source}-${target}/ord/${encodeURIComponent(word.trim())}.txt`;
+}*/
+
+function getPath(source, target, word) {
+  const folderNames = {
+    "Svenska-Persiska": "Svenska-persiska"
+  };
+
+  const pair = `${source}-${target}`;
+  const folder = folderNames[pair] || pair;
+
+  return `${folder}/ord/${encodeURIComponent(word.trim())}.txt`;
 }
 
 function showMessage(element, message, type = "info") {
