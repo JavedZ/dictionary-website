@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101828">
+  <title>واژه‌ | دیکشنری چندزبانه</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Waژه">
+      <span class="brand-icon">و</span>
+      <span>
+        <strong>Waژه‌</strong>
+        <small>دیکشنری چندزبانه</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <button class="nav-button active" id="dictionaryTab" type="button">
+        دیکشنری
+      </button>
+      <button class="nav-button" id="adminTab" type="button">
+        پنل ادمین
+      </button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="eyebrow">یک واژه، دنیایی از معنا</span>
+      <h1>واژه‌ها را بهتر بشناسید.</h1>
+      <p>لغت موردنظر را جست‌وجو کنید و توضیحات کامل آن را بخوانید.</p>
+    </section>
+
+    <!-- Dictionary -->
+    <section class="panel" id="dictionaryView">
+      <div class="section-heading">
+        <div>
+          <span class="overline">DICTIONARY</span>
+          <h2>جست‌وجوی لغت</h2>
+        </div>
+        <span class="tag">چندزبانه</span>
+      </div>
+
+      <div class="language-grid">
+        <label>
+          از
+          <select id="searchSource">
+            <option value="Engelska">انگلیسی</option>
+            <option value="Svenska">سوئدی</option>
+            <option value="Persiska">فارسی</option>
+          </select>
+        </label>
+
+        <label>
+          به
+          <select id="searchTarget">
+            <option value="Persiska">فارسی</option>
+            <option value="Svenska">سوئدی</option>
+            <option value="Engelska">انگلیسی</option>
+          </select>
+        </label>
+      </div>
+
+      <form id="searchForm" class="search-form">
+        <input
+          id="searchWord"
+          type="search"
+          placeholder="لغت را وارد کنید..."
+          autocomplete="off"
+          required
+        >
+        <button class="primary-button" type="submit">جست‌وجو ←</button>
+      </form>
+
+      <div id="result" class="result-area" aria-live="polite">
+        <div class="empty-state">
+          <span class="empty-icon">文</span>
+          <h3>آماده جست‌وجو هستیم</h3>
+          <p>زبان‌ها را انتخاب کنید و لغت موردنظر را بنویسید.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admin -->
+    <section class="panel" id="adminView" hidden>
+      <div class="section-heading">
+        <div>
+          <span class="overline">ADMIN WORKSPACE</span>
+          <h2>افزودن لغت جدید</h2>
+        </div>
+        <span class="tag">مدیریت واژگان</span>
+      </div>
+
+      <p class="intro">
+        زبان‌ها را انتخاب کنید، نام لغت را بنویسید و متن کامل مدخل را
+        وارد کنید. متن توضیحات بدون تغییر در فایل TXT ذخیره خواهد شد.
+      </p>
+
+      <form id="adminForm">
+        <div class="language-grid">
+          <label>
+            زبان مبدأ
+            <select id="adminSource" required>
+              <option value="Engelska">انگلیسی</option>
+              <option value="Svenska">سوئدی</option>
+              <option value="Persiska">فارسی</option>
+            </select>
+          </label>
+
+          <label>
+            زبان مقصد
+            <select id="adminTarget" required>
+              <option value="Persiska">فارسی</option>
+              <option value="Svenska">سوئدی</option>
+              <option value="Engelska">انگلیسی</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="admin-fields">
+          <label>
+            ۱- لغت جدید
+            <input
+              id="newWord"
+              type="text"
+              maxlength="120"
+              placeholder="مثلاً omfattande"
+              autocomplete="off"
+              required
+            >
+          </label>
+
+          <label>
+            ۲- توضیحات
+            <textarea
+              id="newDescription"
+              rows="13"
+              placeholder="متن کامل مدخل دیکشنری را اینجا وارد کنید..."
+              required
+            ></textarea>
+            <small class="field-hint">
+              تمام خط‌ها، مثال‌ها و توضیحات همان‌طور که وارد می‌کنید حفظ می‌شوند.
+            </small>
+          </label>
+        </div>
+
+        <div id="adminMessage" class="message" role="status"
+             aria-live="polite" hidden></div>
+
+        <button class="primary-button full-width" type="submit">
+          بررسی و ذخیره لغت ←
+        </button>
+      </form>
+
+      <div class="notice">
+        <strong>قانون ذخیره‌سازی</strong>
+        <p>
+          فایل در پوشه زبان مبدأ-زبان مقصد و داخل پوشه ord ذخیره می‌شود.
+          اگر همان لغت قبلاً وجود داشته باشد، سیستم خطا می‌دهد و فایل قبلی
+          را جایگزین نمی‌کند.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <span>واژه‌یار</span>
+      <span>دیکشنری متنی چندزبانه</span>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
