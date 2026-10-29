@@ -1,0 +1,9 @@
+Att presentera sig
+
+Hej! Jag heter Anna.
+Jag kommer från Sverige.
+Jag bor i Stockholm.
+Jag studerar svenska.
+
+Vad heter du?
+Var bor du?

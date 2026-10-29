@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101828">
+  <title>آموزش زبان | واژه‌</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="education.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-icon">و</span>
+      <span>
+        <strong>Waژه‌</strong>
+        <small>آموزش زبان</small>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav-button" href="index.html">دیکشنری</a>
+      <a class="nav-button active" href="education.html">آموزش زبان</a>
+    </nav>
+  </header>
+
+  <main class="container education-container">
+    <section class="hero">
+      <span class="eyebrow">LANGUAGE LEARNING</span>
+      <h1>آموزش زبان</h1>
+      <p>زبان و دورهٔ خود را انتخاب کن و قدم‌به‌قدم پیش برو.</p>
+    </section>
+
+    <section class="panel">
+      <h2>انتخاب زبان</h2>
+
+      <label for="learningLanguage">زبانی که می‌خواهی یاد بگیری</label>
+      <select id="learningLanguage">
+        <option value="SFI">سوئدی — Svenska</option>
+        <option value="English">انگلیسی — English</option>
+      </select>
+
+      <label for="translationLanguage">زبان معنی و توضیحات</label>
+      <select id="translationLanguage">
+        <option value="Persiska">فارسی</option>
+        <option value="Engelska">انگلیسی</option>
+        <option value="Svenska">سوئدی</option>
+      </select>
+    </section>
+
+    <section class="panel">
+      <h2>دوره‌های آموزشی</h2>
+      <p class="intro">
+        یک دوره را انتخاب کن تا درس‌ها و تمرین‌های آن نمایش داده شوند.
+      </p>
+
+      <div id="courseList" class="course-list">
+        <button class="course-card" type="button"
+                data-course="SFI-kurs-A">
+          <span class="course-level">SFI</span>
+          <strong>سوئدی — کورس A</strong>
+          <span>۲۰ درس · تمرین · تکلیف</span>
+          <span>مدت پیشنهادی: ۴۵ روز</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="panel" id="lessonPanel" hidden>
+      <div class="section-heading">
+        <h2 id="courseTitle">درس‌ها</h2>
+        <button id="toggleLessons" class="secondary-button"
+                type="button" aria-expanded="true">
+          بستن فهرست درس‌ها
+        </button>
+      </div>
+
+      <nav id="lessonMenu" class="lesson-menu"
+           aria-label="فهرست درس‌ها"></nav>
+
+      <article id="lessonContent" class="lesson-content" hidden>
+        <h3 id="lessonTitle"></h3>
+
+        <div class="reading-controls">
+          <button id="readText" class="primary-button" type="button">
+            خواندن متن
+          </button>
+          <button id="readWord" class="secondary-button" type="button">
+            خواندن لغت انتخاب‌شده
+          </button>
+          <button id="stopReading" class="secondary-button" type="button">
+            توقف صدا
+          </button>
+
+          <label for="readingSpeed">سرعت خواندن</label>
+          <select id="readingSpeed">
+            <option value="0.5">۰٫۵ برابر</option>
+            <option value="0.75">۰٫۷۵ برابر</option>
+            <option value="1" selected>عادی</option>
+            <option value="1.25">۱٫۲۵ برابر</option>
+            <option value="1.5">۱٫۵ برابر</option>
+            <option value="2">۲ برابر</option>
+          </select>
+        </div>
+
+        <h4>متن درس</h4>
+        <div id="lessonText" class="lesson-text"></div>
+
+        <h4>تمرین</h4>
+        <pre id="exerciseText" class="lesson-raw"></pre>
+
+        <h4>تکلیف خانه — Uppgift</h4>
+        <pre id="taskText" class="lesson-raw"></pre>
+      </article>
+    </section>
+
+    <footer>
+      <span>واژه‌یار</span>
+      <span>آموزش زبان برای همه</span>
+    </footer>
+  </main>
+
+  <script src="education.js"></script>
+</body>
+</html>
