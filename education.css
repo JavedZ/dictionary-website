@@ -241,6 +241,35 @@
   vertical-align: baseline;
 }
 
+
+.word-meaning {
+  display: block;
+  margin: 6px 0;
+  padding: 8px;
+  color: #1670c5;
+  background: #f0f7ff;
+  border-radius: 6px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.close-meaning {
+  display: block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border: 1px solid #1670c5;
+  border-radius: 5px;
+  background: white;
+  color: #1670c5;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.close-meaning:hover {
+  background: #e0efff;
+}
+
+
 @media (max-width: 600px) {
   .education-container {
     width: calc(100% - 20px);
