@@ -271,31 +271,64 @@ function findDictionaryPath(word) {
   return `${folder}/ord/${encodeURIComponent(word)}.txt`;
 }
 
-async function showWordMeaning(word, anchor) {
-  clearTimeout(meaningTimer);
 
+async function showWordMeaning(word, anchor) {
+  // اگر معنی همین لغت باز است، آن را ببند
   const oldMeaning = anchor.nextElementSibling;
 
   if (oldMeaning?.classList.contains("word-meaning")) {
     oldMeaning.remove();
+    return;
   }
+
+  // معنی‌های باز قبلی را ببند
+  document.querySelectorAll(".word-meaning").forEach((meaning) => {
+    meaning.remove();
+  });
 
   try {
     const content = await readTextFile(findDictionaryPath(word));
 
     const meaning = document.createElement("span");
     meaning.className = "word-meaning";
-    meaning.textContent = content;
+
+    const text = document.createElement("span");
+    text.textContent = content;
+
+    const closeButton = document.createElement("button");
+    closeButton.type = "button";
+    closeButton.className = "close-meaning";
+    closeButton.textContent = "بستن معنی ✕";
+    closeButton.setAttribute("aria-label", "بستن معنی لغت");
+
+    closeButton.addEventListener("click", (event) => {
+      event.stopPropagation();
+      meaning.remove();
+    });
+
+    meaning.append(text, closeButton);
     meaning.setAttribute("role", "status");
 
     anchor.insertAdjacentElement("afterend", meaning);
   } catch {
     const meaning = document.createElement("span");
     meaning.className = "word-meaning";
-    meaning.textContent = "معنی این لغت هنوز موجود نیست.";
+
+    const text = document.createElement("span");
+    text.textContent = "معنی این لغت هنوز موجود نیست.";
+
+    const closeButton = document.createElement("button");
+    closeButton.type = "button";
+    closeButton.className = "close-meaning";
+    closeButton.textContent = "بستن ✕";
+
+    closeButton.addEventListener("click", () => meaning.remove());
+
+    meaning.append(text, closeButton);
     anchor.insertAdjacentElement("afterend", meaning);
   }
 }
+
 
 function prepareLessonWords() {
   // این تابع فقط برای متن نمایشی درس استفاده می‌شود.
