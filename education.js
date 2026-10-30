@@ -272,8 +272,135 @@ function findDictionaryPath(word) {
 }
 
 
-async function showWordMeaning(word, anchor) {
-  // اگر معنی همین لغت باز است، آن را ببند
+
+function normalizeText(text) {
+  return text
+    .toLocaleLowerCase("sv-SE")
+    .replace(/[.,!?;:()[\]{}"']/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// پیدا کردن جمله‌ای که لغت در آن قرار دارد
+function getSentenceContext(word, anchor) {
+  const sentence = anchor.dataset.sentence || "";
+  return sentence || word;
+}
+
+// استخراج معنی‌های جداگانه از فایل دیکشنری
+function extractMeaningSections(content) {
+  const lines = content.split(/\r?\n/);
+  const sections = [];
+  let current = null;
+
+  for (const line of lines) {
+    if (/^\s*[۰-۹0-9]+\s*[.．]\s*معنی/u.test(line)) {
+      if (current) sections.push(current);
+
+      current = {
+        title: line.trim(),
+        examples: []
+      };
+      continue;
+    }
+
+    if (!current) continue;
+
+    const exampleMatch = line.match(/^\s*(.+?)\s*$/u);
+
+    if (
+      exampleMatch &&
+      !line.includes("ترجمه:") &&
+      !line.includes("مثال") &&
+      line.trim() &&
+      !line.includes("نکته:")
+    ) {
+      current.examples.push(line.trim());
+    }
+  }
+
+  if (current) sections.push(current);
+
+  return sections;
+}
+
+// بررسی ترکیب‌های پرکاربرد مانند "på svenska"
+function findMatchingPhrase(content, sentence, word) {
+  const normalizedSentence = normalizeText(sentence);
+  const lines = content.split(/\r?\n/);
+  const matches = [];
+
+  for (const line of lines) {
+    const columns = line.split(/\t+|\s{2,}/u);
+
+    if (columns.length < 2) continue;
+
+    const phrase = columns[0].trim();
+    const translation = columns.slice(1).join(" ").trim();
+
+    if (!phrase || !translation) continue;
+
+    const normalizedPhrase = normalizeText(phrase);
+
+    if (
+      normalizedPhrase.includes(normalizeText(word)) &&
+      normalizedSentence.includes(normalizedPhrase)
+    ) {
+      matches.push({
+        phrase,
+        translation,
+        length: normalizedPhrase.length
+      });
+    }
+  }
+
+  matches.sort((a, b) => b.length - a.length);
+
+  return matches[0] || null;
+}
+
+// مقایسهٔ جمله با مثال‌های دیکشنری
+function findRelatedMeaning(content, sentence, word) {
+  const sections = extractMeaningSections(content);
+  const sentenceWords = new Set(normalizeText(sentence).split(" "));
+
+  const stopWords = new Set([
+    "och", "att", "det", "är", "jag", "du",
+    "en", "ett", "på", "i", "av", "som",
+    "the", "is", "a", "an", "to", "of"
+  ]);
+
+  let bestMatch = null;
+  let bestScore = 0;
+
+  for (const section of sections) {
+    for (const example of section.examples) {
+      const exampleWords = normalizeText(example).split(" ");
+      let score = 0;
+
+      for (const exampleWord of exampleWords) {
+        if (
+          exampleWord.length > 2 &&
+          !stopWords.has(exampleWord) &&
+          sentenceWords.has(exampleWord)
+        ) {
+          score++;
+        }
+      }
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestMatch = section;
+      }
+    }
+  }
+
+  return bestScore > 0 ? bestMatch : null;
+}
+
+
+async function showWordMeaning(word, anchor, sentence) {
+  // بستن معنی قبلی همین لغت
   const oldMeaning = anchor.nextElementSibling;
 
   if (oldMeaning?.classList.contains("word-meaning")) {
@@ -281,25 +408,43 @@ async function showWordMeaning(word, anchor) {
     return;
   }
 
-  // معنی‌های باز قبلی را ببند
-  document.querySelectorAll(".word-meaning").forEach((meaning) => {
-    meaning.remove();
+  // بستن معنی‌های دیگر
+  document.querySelectorAll(".word-meaning").forEach((item) => {
+    item.remove();
   });
 
   try {
     const content = await readTextFile(findDictionaryPath(word));
 
+    // اول ترکیب دقیق مانند "på svenska" را بررسی کن
+    const phrase = findMatchingPhrase(content, sentence, word);
+
+    let result = "";
+
+    if (phrase) {
+      result = `${phrase.phrase}\n${phrase.translation}`;
+    } else {
+      // اگر ترکیب پیدا نشد، مثال‌های معنی‌ها را بررسی کن
+      const related = findRelatedMeaning(content, sentence, word);
+
+      if (related) {
+        result = related.title;
+      } else {
+        result = "معنی مرتبط با این جمله با اطمینان پیدا نشد.\n\n" +
+          "برای دیدن معنی‌های دیگر، فایل دیکشنری را بررسی کن.";
+      }
+    }
+
     const meaning = document.createElement("span");
     meaning.className = "word-meaning";
 
     const text = document.createElement("span");
-    text.textContent = content;
+    text.textContent = result;
 
     const closeButton = document.createElement("button");
     closeButton.type = "button";
     closeButton.className = "close-meaning";
     closeButton.textContent = "بستن معنی ✕";
-    closeButton.setAttribute("aria-label", "بستن معنی لغت");
 
     closeButton.addEventListener("click", (event) => {
       event.stopPropagation();
@@ -310,24 +455,23 @@ async function showWordMeaning(word, anchor) {
     meaning.setAttribute("role", "status");
 
     anchor.insertAdjacentElement("afterend", meaning);
-  } catch {
+
+  } catch (error) {
     const meaning = document.createElement("span");
     meaning.className = "word-meaning";
-
-    const text = document.createElement("span");
-    text.textContent = "معنی این لغت هنوز موجود نیست.";
+    meaning.textContent = "معنی این لغت هنوز موجود نیست.";
 
     const closeButton = document.createElement("button");
     closeButton.type = "button";
     closeButton.className = "close-meaning";
     closeButton.textContent = "بستن ✕";
-
     closeButton.addEventListener("click", () => meaning.remove());
 
-    meaning.append(text, closeButton);
+    meaning.append(closeButton);
     anchor.insertAdjacentElement("afterend", meaning);
   }
 }
+
 
 
 function prepareLessonWords() {
@@ -336,7 +480,8 @@ function prepareLessonWords() {
   const original = lessonText.textContent;
   const fragment = document.createDocumentFragment();
 
-  const words = original.match(/\s+|[^\s]+/gu) || [];
+  const sentences = original.match(/[^.!?؟]+[.!?؟]?/gu) || [original];
+const words = original.match(/\s+|[^\s]+/gu) || [];
 
   words.forEach((part) => {
     if (/^\s+$/u.test(part)) {
@@ -350,6 +495,18 @@ function prepareLessonWords() {
     button.textContent = part;
     button.dataset.word = part.replace(/^[^\p{L}\p{N}åäöÅÄÖ]+|[^\p{L}\p{N}åäöÅÄÖ]+$/gu, "");
 
+const cleanWord = button.dataset.word.toLocaleLowerCase("sv-SE");
+
+const matchingSentence = sentences.find((sentence) => {
+  const sentenceWords = sentence.match(/[\p{L}\p{N}åäöÅÄÖ]+/gu) || [];
+
+  return sentenceWords.some(
+    (item) => item.toLocaleLowerCase("sv-SE") === cleanWord
+  );
+});
+
+button.dataset.sentence = matchingSentence?.trim() || original;
+
     let timer;
 
     button.addEventListener("pointerdown", () => {
@@ -358,7 +515,7 @@ function prepareLessonWords() {
 
         if (word) {
           activeWord = word;
-          showWordMeaning(word, button);
+          showWordMeaning(word, button, getSentenceContext(word, button));
         }
       }, 1000);
     });
