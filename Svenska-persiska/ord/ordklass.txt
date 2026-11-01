@@ -1,0 +1,113 @@
+Ordklasser – de svenska ordklasserna
+Svenska → Persiska | Svensk grammatik
+
+Ordklass betyder گروه دستوری کلمات.
+
+I svenskan delar man in ord i olika grupper beroende på vilken funktion orden har i en mening. Dessa grupper kallas ordklasser.
+
+Det finns traditionellt nio ordklasser i svensk grammatik.
+De nio ordklasserna
+ Kopiera
+1. Substantiv
+اسم
+
+Namn på personer, djur, saker, platser och känslor.
+
+Exempel: en pojke, ett hus, en katt, kärlek.
+
+Fråga: Vem? Vad?
+
+
+2. Verb
+فعل
+
+Berättar vad någon gör eller vad som händer.
+
+Exempel: springa, läsa, arbeta, sova.
+
+Fråga: Vad gör någon? Vad händer?
+
+
+3. Adjektiv
+صفت
+
+Beskriver hur någon eller något är.
+
+Exempel: glad, stor, vacker, snabb.
+
+Fråga: Hurdan? Hurudant?
+
+
+4. Adverb
+قید
+
+Beskriver ofta ett verb, adjektiv eller annat adverb.
+
+Exempel: snabbt, mycket, ofta, inte, här, igår.
+
+Fråga: Hur? När? Var? Hur mycket?
+
+
+5. Pronomen
+ضمیر
+
+Ersätter substantiv eller syftar på personer och saker.
+
+Exempel: jag, du, han, hon, vi, de, den, det, min, någon.
+
+Exempel: Sara läser. Hon läser.
+
+Hon ersätter Sara.
+
+
+6. Prepositioner
+حروف اضافه
+
+Visar relationer mellan ord, till exempel plats, tid eller riktning.
+
+Exempel: på, i, under, över, bakom, framför, till, från.
+
+Exempel: Boken ligger på bordet.
+
+
+7. Konjunktioner
+حروف ربط هم‌پایه
+
+Binder ihop ord, fraser eller huvudsatser.
+
+Exempel: och, men, eller, för, så.
+
+Exempel: Jag vill läsa och skriva.
+
+
+8. Subjunktioner
+حروف ربط وابسته‌ساز
+
+Inleder bisatser.
+
+Exempel: att, eftersom, om, när, medan, innan, fastän.
+
+Exempel: Jag stannar hemma eftersom jag är sjuk.
+
+
+9. Interjektioner
+اصوات و کلمات ندایی
+
+Uttrycker känslor, reaktioner, hälsningar eller ljud.
+
+Exempel: hej!, aj!, oj!, usch!, hurra!
+
+Exempel: Aj! Det gör ont.
+
+
+Viktigt: Ordklasser och satsdelar är inte samma sak
+Ordklasser	Satsdelar
+Vilken sorts ord?	Vilken funktion i meningen?
+Substantiv	Subjekt, objekt
+Verb	Predikat
+Adjektiv	Attribut eller predikativ
+
+Exempel: Pojken spelar fotboll.
+- Pojken = substantiv och subjekt.
+- spelar = verb och predikat.
+- fotboll = substantiv och objekt.

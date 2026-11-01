@@ -1,0 +1,91 @@
+Subjunktion
+Svenska → Persiska | Svensk grammatik
+
+Ordklass: Substantiv (en-ord)
+Persiska: حرف ربط وابسته‌ساز
+Subjunktion – توضیح کامل
+ Kopiera
+1. Vad är en subjunktion?
+En subjunktion är ett ord som inleder en bisats och visar hur bisatsen hänger ihop med huvudsatsen.
+
+به فارسی: حرف ربط وابسته‌ساز؛ واژه‌ای که جمله‌وارهٔ وابسته را آغاز می‌کند و ارتباط آن را با جملهٔ اصلی نشان می‌دهد.
+2. Vanliga subjunktioner
+Subjunktion	معنی فارسی
+att	که
+eftersom	چون، زیرا
+därför att	به این دلیل که
+om	اگر
+när	وقتی که
+medan	در حالی که
+innan	قبل از اینکه
+fastän	با اینکه
+trots att	با وجود اینکه
+så att	به‌طوری‌که، تا اینکه
+även om	حتی اگر
+
+3. Exempel
+1. Eftersom
+
+Jag stannar hemma eftersom jag är sjuk.
+
+من در خانه می‌مانم چون بیمار هستم.
+
+Subjunktion: eftersom
+
+2. Att
+
+Hon säger att hon är trött.
+
+او می‌گوید که خسته است.
+
+Subjunktion: att
+
+3. När
+
+Jag blir glad när du kommer.
+
+وقتی تو می‌آیی خوشحال می‌شوم.
+
+Subjunktion: när
+
+4. Om
+
+Vi går ut om det inte regnar.
+
+اگر باران نبارد، بیرون می‌رویم.
+
+Subjunktion: om
+4. Skillnaden mellan huvudsats och bisats
+- Huvudsats: جمله‌ای که معمولاً می‌تواند به‌تنهایی معنا داشته باشد.
+- Bisats: جمله‌واره‌ای که به جملهٔ دیگری وابسته است و اغلب با subjunktion شروع می‌شود.
+Exempel:
+
+Jag går hem eftersom jag är trött.
+- Huvudsats: Jag går hem.
+- Bisats: eftersom jag är trött.
+5. BIFF-regeln
+BIFF betyder:
+
+I Bisats kommer Inte Före det Finita verbet.
+
+یعنی در جملهٔ وابسته، کلمهٔ inte قبل از فعل صرف‌شده می‌آید.
+Huvudsats	Bisats
+Jag kommer inte.	eftersom jag inte kommer.
+Hon arbetar inte.	när hon inte arbetar.
+
+6. Skillnaden mellan subjunktion och konjunktion
+Subjunktion: یک جملهٔ وابسته را آغاز می‌کند.
+
+Jag stannar hemma eftersom jag är sjuk.
+
+Konjunktion: کلمات، عبارت‌ها یا جمله‌های هم‌پایه را به هم وصل می‌کند.
+
+Jag är trött men jag arbetar.
+
+Vanliga konjunktioner: och, men, eller, för, så.
+7. Kort sammanfattning
+En subjunktion inleder en bisats.
+
+مثال‌های مهم: att, eftersom, om, när, medan, innan, fastän.
+
+Böjning: en subjunktion – subjunktionen – subjunktioner – subjunktionerna.
