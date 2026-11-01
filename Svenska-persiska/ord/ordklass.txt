@@ -1,113 +1,255 @@
-Ordklasser – de svenska ordklasserna
-Svenska → Persiska | Svensk grammatik
+Ordklass 🔊
+A. Uppslagsord och ordklass
+- Uppslagsord: ordklass
+- Språk: Svenska 🇸🇪
+- Ordklass: Substantiv
+- Grundform: en ordklass
+- Bestämd singular: ordklassen
+- Obestämd plural: ordklasser
+- Bestämd plural: ordklasserna
+تعریف فارسی:
 
-Ordklass betyder گروه دستوری کلمات.
+«Ordklass» در زبان‌شناسی و دستور زبان به معنی «نوع کلمه» یا «دستهٔ دستوری واژه‌ها» است.
 
-I svenskan delar man in ord i olika grupper beroende på vilken funktion orden har i en mening. Dessa grupper kallas ordklasser.
+کلمات بر اساس ویژگی‌های دستوری و کاربردشان در جمله به گروه‌های مختلف تقسیم می‌شوند. برای مثال، اسم‌ها، فعل‌ها، صفت‌ها و قیدها هرکدام یک ordklass هستند.
+B. Böjningar och grammatiska former
+Svenska	فارسی
+en ordklass	یک دستهٔ دستوری
+ordklassen	آن دستهٔ دستوری
+ordklasser	دسته‌های دستوری
+ordklasserna	دسته‌های دستوری مشخص
 
-Det finns traditionellt nio ordklasser i svensk grammatik.
-De nio ordklasserna
- Kopiera
-1. Substantiv
-اسم
+C. Betydelser och definitioner
+۱. Ordklass – دستهٔ دستوری کلمات
 
-Namn på personer, djur, saker, platser och känslor.
+دسته‌بندی واژه‌ها بر اساس ویژگی‌های دستوری، معنایی و نحوهٔ استفاده از آن‌ها.
 
-Exempel: en pojke, ett hus, en katt, kärlek.
+مثلاً:
+- Substantiv – اسم
+- Verb – فعل
+- Adjektiv – صفت
+- Adverb – قید
+- Pronomen – ضمیر
+- Preposition – حرف اضافه
+- Konjunktion – حرف ربط
+- Subjunktion – حرف ربط وابسته‌ساز
+- Interjektion – صوت یا شبه‌جمله
+- Räkneord – عددواژه
+۲. Ordklasser – انواع کلمات
 
-Fråga: Vem? Vad?
+به مجموعهٔ دسته‌های دستوری زبان گفته می‌شود.
 
+مثلاً:
 
-2. Verb
-فعل
+Det finns olika ordklasser i svenska språket.
 
-Berättar vad någon gör eller vad som händer.
+در زبان سوئدی انواع مختلفی از دسته‌های دستوری وجود دارد.
+D. Konstruktioner och grammatiska mönster
+Konstruktion	معنی فارسی
+Vilken ordklass tillhör ordet?	این کلمه متعلق به کدام دستهٔ دستوری است؟
+Bestäm ordklassen.	نوع دستوری کلمه را مشخص کن.
+Olika ordklasser	دسته‌های دستوری مختلف
+Lära sig ordklasser	یادگیری انواع کلمات
+Dela in ord i ordklasser	تقسیم کلمات به دسته‌های دستوری
+Ordklass och satsdel	نوع کلمه و نقش دستوری آن در جمله
 
-Exempel: springa, läsa, arbeta, sova.
-
-Fråga: Vad gör någon? Vad händer?
-
-
-3. Adjektiv
-صفت
-
-Beskriver hur någon eller något är.
-
-Exempel: glad, stor, vacker, snabb.
-
-Fråga: Hurdan? Hurudant?
-
-
-4. Adverb
-قید
-
-Beskriver ofta ett verb, adjektiv eller annat adverb.
-
-Exempel: snabbt, mycket, ofta, inte, här, igår.
-
-Fråga: Hur? När? Var? Hur mycket?
-
-
-5. Pronomen
-ضمیر
-
-Ersätter substantiv eller syftar på personer och saker.
-
-Exempel: jag, du, han, hon, vi, de, den, det, min, någon.
-
-Exempel: Sara läser. Hon läser.
-
-Hon ersätter Sara.
+E. De tio vanliga ordklasserna i svenskan
 
 
-6. Prepositioner
-حروف اضافه
-
-Visar relationer mellan ord, till exempel plats, tid eller riktning.
-
-Exempel: på, i, under, över, bakom, framför, till, från.
-
-Exempel: Boken ligger på bordet.
 
 
-7. Konjunktioner
-حروف ربط هم‌پایه
-
-Binder ihop ord, fraser eller huvudsatser.
-
-Exempel: och, men, eller, för, så.
-
-Exempel: Jag vill läsa och skriva.
 
 
-8. Subjunktioner
-حروف ربط وابسته‌ساز
-
-Inleder bisatser.
-
-Exempel: att, eftersom, om, när, medan, innan, fastän.
-
-Exempel: Jag stannar hemma eftersom jag är sjuk.
 
 
-9. Interjektioner
-اصوات و کلمات ندایی
 
-Uttrycker känslor, reaktioner, hälsningar eller ljud.
+1. Substantiv – اسم
 
-Exempel: hej!, aj!, oj!, usch!, hurra!
+نام اشخاص، اشیا، مکان‌ها، حیوانات و مفاهیم.
 
-Exempel: Aj! Det gör ont.
+Exempel: bil, flicka, hus, kärlek
 
 
-Viktigt: Ordklasser och satsdelar är inte samma sak
-Ordklasser	Satsdelar
-Vilken sorts ord?	Vilken funktion i meningen?
-Substantiv	Subjekt, objekt
-Verb	Predikat
-Adjektiv	Attribut eller predikativ
 
-Exempel: Pojken spelar fotboll.
-- Pojken = substantiv och subjekt.
-- spelar = verb och predikat.
-- fotboll = substantiv och objekt.
+
+
+
+
+
+
+
+
+
+2. Verb – فعل
+
+بیان‌کنندهٔ کار، حالت یا اتفاق.
+
+Exempel: springa, läsa, vara, tänka
+
+
+
+
+
+3. Adjektiv – صفت
+
+ویژگی یا خصوصیت اسم را بیان می‌کند.
+
+Exempel: stor, liten, vacker, glad
+
+
+
+
+
+
+
+
+
+
+
+
+4. Adverb – قید
+
+فعل، صفت یا قید دیگری را توصیف می‌کند.
+
+Exempel: snabbt, mycket, ofta, här
+
+
+
+
+
+
+
+
+
+
+
+
+5. Pronomen – ضمیر
+
+به‌جای اسم یا گروه اسمی استفاده می‌شود.
+
+Exempel: jag, du, han, hon, den, vi
+
+
+
+
+
+
+
+
+
+
+
+
+6. Preposition – حرف اضافه
+
+رابطهٔ مکانی، زمانی یا معنایی را نشان می‌دهد.
+
+Exempel: på, i, under, över, bakom
+
+
+
+
+
+
+
+
+
+
+
+
+7. Konjunktion – حرف ربط
+
+کلمات یا جمله‌های هم‌پایه را به هم وصل می‌کند.
+
+Exempel: och, men, eller, för
+
+
+
+
+
+8. Subjunktion – حرف ربط وابسته‌ساز
+
+جملهٔ وابسته را به جملهٔ اصلی متصل می‌کند.
+
+Exempel: att, eftersom, när, om, fastän
+
+
+
+
+
+
+
+
+
+
+
+
+9. Interjektion – صوت و شبه‌جمله
+
+احساسات، واکنش‌ها یا صداها را بیان می‌کند.
+
+Exempel: oj!, hej!, usch!, aj!
+
+
+
+
+
+
+
+
+
+
+
+
+10. Räkneord – عددواژه
+
+عدد یا ترتیب را نشان می‌دهد.
+
+Exempel: en, två, tre, första, andra
+
+
+
+F. Exempelmeningar
+Exempel 1:
+
+Ordet «springer» tillhör ordklassen verb.
+
+کلمهٔ «springer» متعلق به دستهٔ دستوری فعل است.
+
+Exempel 2:
+
+Ordet «vacker» är ett adjektiv.
+
+کلمهٔ «vacker» یک صفت است.
+
+Exempel 3:
+
+Vi lär oss olika ordklasser i skolan.
+
+ما در مدرسه انواع مختلف دسته‌های دستوری را یاد می‌گیریم.
+G. Synonymer och närliggande ord
+Svenska	فارسی
+Ordtyp	نوع واژه
+Ordgrupp	گروه واژگانی
+Grammatik	دستور زبان
+Ordklassindelning	دسته‌بندی دستوری واژه‌ها
+Satsdel	نقش دستوری در جمله
+
+Skillnaden mellan ordklass och satsdel:
+
+این تفاوت بسیار مهم است:
+- Ordklass: کلمه از نظر دستوری چه نوعی است؟
+- Satsdel: کلمه در جمله چه نقشی دارد؟
+مثال:
+
+Ali äter ett äpple.
+Ord	Ordklass	Satsdel
+Ali	Substantiv	Subjekt
+äter	Verb	Predikat
+ett	Artikel	Bestämning
+äpple	Substantiv	Huvudord i objektet
+
+نکته: در دستور زبان سوئدی، artikel معمولاً به‌عنوان یک زیرگروه از determinativ تحلیل می‌شود، نه یکی از ده دستهٔ اصلی بالا.
+
+نکتهٔ آموزشی: ابتدا Ordklasser را یاد بگیر و سپس Satsdelar را مطالعه کن؛ چون برای تحلیل جمله در زبان سوئدی به هر دو نیاز داری.
